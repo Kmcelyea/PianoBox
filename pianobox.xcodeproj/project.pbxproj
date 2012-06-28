@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272A7338142FD4CC007DE813 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272A7337142FD4CC007DE813 /* Cocoa.framework */; };
+		272A7342142FD4CC007DE813 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 272A7340142FD4CC007DE813 /* InfoPlist.strings */; };
+		272A7344142FD4CC007DE813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 272A7343142FD4CC007DE813 /* main.m */; };
+		272A7348142FD4CC007DE813 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 272A7346142FD4CC007DE813 /* Credits.rtf */; };
+		272A734B142FD4CC007DE813 /* PianoBoxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 272A734A142FD4CC007DE813 /* PianoBoxAppDelegate.m */; };
+		272A734E142FD4CD007DE813 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 272A734C142FD4CD007DE813 /* MainMenu.xib */; };
+		272A735C142FD4FF007DE813 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 272A7359142FD4FF007DE813 /* CustomView.m */; };
+		272A735D142FD4FF007DE813 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 272A735B142FD4FF007DE813 /* MAAttachedWindow.m */; };
+		272A73C0142FEC6F007DE813 /* pianoicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 272A73BF142FEC6F007DE813 /* pianoicon.png */; };
+		272A73D714302F33007DE813 /* icon_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 272A73D514302F33007DE813 /* icon_arrow_left.png */; };
+		272A73D814302F33007DE813 /* icon_arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 272A73D614302F33007DE813 /* icon_arrow_right.png */; };
+		272A73DB14302F7F007DE813 /* icon_controls_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 272A73D914302F7F007DE813 /* icon_controls_3.png */; };
+		272A73DC14302F7F007DE813 /* icon_controls_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 272A73DA14302F7F007DE813 /* icon_controls_4.png */; };
+		27FAD72D1436A95300DB6A3A /* OmNomSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FAD72C1436A95300DB6A3A /* OmNomSmall.png */; };
+		27FAD7321436AE3B00DB6A3A /* icon_minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FAD7311436AE3B00DB6A3A /* icon_minus.png */; };
+		27FAD7341436AE5600DB6A3A /* icon_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FAD7331436AE5600DB6A3A /* icon_add.png */; };
+		27FAD7361436B37A00DB6A3A /* TiredIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FAD7351436B37A00DB6A3A /* TiredIcon.png */; };
+		8454D6291430B20700DEE09E /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8454D6281430B20700DEE09E /* Defaults.plist */; };
+		8454D62E1430BC6C00DEE09E /* Brewpiano.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 8454D62D1430BC6C00DEE09E /* Brewpiano.scpt */; };
+		8454D6301430BDCE00DEE09E /* Homebrewer.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 8454D62F1430BDCE00DEE09E /* Homebrewer.scpt */; };
+		8454D6901430CD6200DEE09E /* Hideterm.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 8454D68F1430CD6200DEE09E /* Hideterm.scpt */; };
+		8454D6981430E12400DEE09E /* PianoIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8454D6971430E12400DEE09E /* PianoIcon.icns */; };
+		8454D69A1430E9A100DEE09E /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8454D6991430E9A100DEE09E /* back.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		272A7333142FD4CC007DE813 /* PianoBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		272A7337142FD4CC007DE813 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		272A733A142FD4CC007DE813 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		272A733B142FD4CC007DE813 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		272A733C142FD4CC007DE813 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		272A733F142FD4CC007DE813 /* PianoBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PianoBox-Info.plist"; sourceTree = "<group>"; };
+		272A7341142FD4CC007DE813 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		272A7343142FD4CC007DE813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		272A7345142FD4CC007DE813 /* PianoBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PianoBox-Prefix.pch"; sourceTree = "<group>"; };
+		272A7347142FD4CC007DE813 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		272A7349142FD4CC007DE813 /* PianoBoxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PianoBoxAppDelegate.h; sourceTree = "<group>"; };
+		272A734A142FD4CC007DE813 /* PianoBoxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PianoBoxAppDelegate.m; sourceTree = "<group>"; };
+		272A734D142FD4CD007DE813 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		272A7358142FD4FF007DE813 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		272A7359142FD4FF007DE813 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		272A735A142FD4FF007DE813 /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAttachedWindow.h; sourceTree = "<group>"; };
+		272A735B142FD4FF007DE813 /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAttachedWindow.m; sourceTree = "<group>"; };
+		272A73BF142FEC6F007DE813 /* pianoicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pianoicon.png; sourceTree = "<group>"; };
+		272A73D514302F33007DE813 /* icon_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_left.png; sourceTree = "<group>"; };
+		272A73D614302F33007DE813 /* icon_arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_right.png; sourceTree = "<group>"; };
+		272A73D914302F7F007DE813 /* icon_controls_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_controls_3.png; sourceTree = "<group>"; };
+		272A73DA14302F7F007DE813 /* icon_controls_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_controls_4.png; sourceTree = "<group>"; };
+		27FAD72C1436A95300DB6A3A /* OmNomSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OmNomSmall.png; sourceTree = "<group>"; };
+		27FAD7311436AE3B00DB6A3A /* icon_minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_minus.png; sourceTree = "<group>"; };
+		27FAD7331436AE5600DB6A3A /* icon_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_add.png; sourceTree = "<group>"; };
+		27FAD7351436B37A00DB6A3A /* TiredIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TiredIcon.png; sourceTree = "<group>"; };
+		8454D6281430B20700DEE09E /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		8454D62D1430BC6C00DEE09E /* Brewpiano.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brewpiano.scpt; sourceTree = "<group>"; };
+		8454D62F1430BDCE00DEE09E /* Homebrewer.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = Homebrewer.scpt; sourceTree = "<group>"; };
+		8454D68F1430CD6200DEE09E /* Hideterm.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hideterm.scpt; sourceTree = "<group>"; };
+		8454D6971430E12400DEE09E /* PianoIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = PianoIcon.icns; path = ../PianoIcon.icns; sourceTree = "<group>"; };
+		8454D6991430E9A100DEE09E /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		272A7330142FD4CC007DE813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272A7338142FD4CC007DE813 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272A7328142FD4CB007DE813 = {
+			isa = PBXGroup;
+			children = (
+				272A733D142FD4CC007DE813 /* PianoBox */,
+				272A7336142FD4CC007DE813 /* Frameworks */,
+				272A7334142FD4CC007DE813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		272A7334142FD4CC007DE813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				272A7333142FD4CC007DE813 /* PianoBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272A7336142FD4CC007DE813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				272A7337142FD4CC007DE813 /* Cocoa.framework */,
+				272A7339142FD4CC007DE813 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		272A7339142FD4CC007DE813 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				272A733A142FD4CC007DE813 /* AppKit.framework */,
+				272A733B142FD4CC007DE813 /* CoreData.framework */,
+				272A733C142FD4CC007DE813 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		272A733D142FD4CC007DE813 /* PianoBox */ = {
+			isa = PBXGroup;
+			children = (
+				272A7358142FD4FF007DE813 /* CustomView.h */,
+				272A7359142FD4FF007DE813 /* CustomView.m */,
+				272A735A142FD4FF007DE813 /* MAAttachedWindow.h */,
+				272A735B142FD4FF007DE813 /* MAAttachedWindow.m */,
+				272A7349142FD4CC007DE813 /* PianoBoxAppDelegate.h */,
+				272A734A142FD4CC007DE813 /* PianoBoxAppDelegate.m */,
+				272A734C142FD4CD007DE813 /* MainMenu.xib */,
+				272A733E142FD4CC007DE813 /* Supporting Files */,
+			);
+			path = PianoBox;
+			sourceTree = "<group>";
+		};
+		272A733E142FD4CC007DE813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27FAD7301436AAAE00DB6A3A /* Static scripts */,
+				27FAD72F1436AA9600DB6A3A /* Images */,
+				272A733F142FD4CC007DE813 /* PianoBox-Info.plist */,
+				272A7340142FD4CC007DE813 /* InfoPlist.strings */,
+				272A7343142FD4CC007DE813 /* main.m */,
+				272A7345142FD4CC007DE813 /* PianoBox-Prefix.pch */,
+				272A7346142FD4CC007DE813 /* Credits.rtf */,
+				8454D6281430B20700DEE09E /* Defaults.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27FAD72F1436AA9600DB6A3A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				27FAD7351436B37A00DB6A3A /* TiredIcon.png */,
+				27FAD7331436AE5600DB6A3A /* icon_add.png */,
+				27FAD7311436AE3B00DB6A3A /* icon_minus.png */,
+				8454D6971430E12400DEE09E /* PianoIcon.icns */,
+				27FAD72C1436A95300DB6A3A /* OmNomSmall.png */,
+				8454D6991430E9A100DEE09E /* back.png */,
+				272A73D914302F7F007DE813 /* icon_controls_3.png */,
+				272A73DA14302F7F007DE813 /* icon_controls_4.png */,
+				272A73D514302F33007DE813 /* icon_arrow_left.png */,
+				272A73D614302F33007DE813 /* icon_arrow_right.png */,
+				272A73BF142FEC6F007DE813 /* pianoicon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		27FAD7301436AAAE00DB6A3A /* Static scripts */ = {
+			isa = PBXGroup;
+			children = (
+				8454D68F1430CD6200DEE09E /* Hideterm.scpt */,
+				8454D62F1430BDCE00DEE09E /* Homebrewer.scpt */,
+				8454D62D1430BC6C00DEE09E /* Brewpiano.scpt */,
+			);
+			name = "Static scripts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		272A7332142FD4CC007DE813 /* PianoBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272A7351142FD4CD007DE813 /* Build configuration list for PBXNativeTarget "PianoBox" */;
+			buildPhases = (
+				272A732F142FD4CC007DE813 /* Sources */,
+				272A7330142FD4CC007DE813 /* Frameworks */,
+				272A7331142FD4CC007DE813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PianoBox;
+			productName = PianoBox;
+			productReference = 272A7333142FD4CC007DE813 /* PianoBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		272A732A142FD4CB007DE813 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 272A732D142FD4CB007DE813 /* Build configuration list for PBXProject "PianoBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 272A7328142FD4CB007DE813;
+			productRefGroup = 272A7334142FD4CC007DE813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272A7332142FD4CC007DE813 /* PianoBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		272A7331142FD4CC007DE813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272A7342142FD4CC007DE813 /* InfoPlist.strings in Resources */,
+				272A7348142FD4CC007DE813 /* Credits.rtf in Resources */,
+				272A734E142FD4CD007DE813 /* MainMenu.xib in Resources */,
+				272A73C0142FEC6F007DE813 /* pianoicon.png in Resources */,
+				272A73D714302F33007DE813 /* icon_arrow_left.png in Resources */,
+				272A73D814302F33007DE813 /* icon_arrow_right.png in Resources */,
+				272A73DB14302F7F007DE813 /* icon_controls_3.png in Resources */,
+				272A73DC14302F7F007DE813 /* icon_controls_4.png in Resources */,
+				8454D6291430B20700DEE09E /* Defaults.plist in Resources */,
+				8454D62E1430BC6C00DEE09E /* Brewpiano.scpt in Resources */,
+				8454D6301430BDCE00DEE09E /* Homebrewer.scpt in Resources */,
+				8454D6901430CD6200DEE09E /* Hideterm.scpt in Resources */,
+				8454D6981430E12400DEE09E /* PianoIcon.icns in Resources */,
+				8454D69A1430E9A100DEE09E /* back.png in Resources */,
+				27FAD72D1436A95300DB6A3A /* OmNomSmall.png in Resources */,
+				27FAD7321436AE3B00DB6A3A /* icon_minus.png in Resources */,
+				27FAD7341436AE5600DB6A3A /* icon_add.png in Resources */,
+				27FAD7361436B37A00DB6A3A /* TiredIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		272A732F142FD4CC007DE813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272A7344142FD4CC007DE813 /* main.m in Sources */,
+				272A734B142FD4CC007DE813 /* PianoBoxAppDelegate.m in Sources */,
+				272A735C142FD4FF007DE813 /* CustomView.m in Sources */,
+				272A735D142FD4FF007DE813 /* MAAttachedWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		272A7340142FD4CC007DE813 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272A7341142FD4CC007DE813 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		272A7346142FD4CC007DE813 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272A7347142FD4CC007DE813 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		272A734C142FD4CD007DE813 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272A734D142FD4CD007DE813 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		272A734F142FD4CD007DE813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		272A7350142FD4CD007DE813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		272A7352142FD4CD007DE813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PianoBox/PianoBox-Prefix.pch";
+				INFOPLIST_FILE = "PianoBox/PianoBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		272A7353142FD4CD007DE813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PianoBox/PianoBox-Prefix.pch";
+				INFOPLIST_FILE = "PianoBox/PianoBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		272A732D142FD4CB007DE813 /* Build configuration list for PBXProject "PianoBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272A734F142FD4CD007DE813 /* Debug */,
+				272A7350142FD4CD007DE813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272A7351142FD4CD007DE813 /* Build configuration list for PBXNativeTarget "PianoBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272A7352142FD4CD007DE813 /* Debug */,
+				272A7353142FD4CD007DE813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 272A732A142FD4CB007DE813 /* Project object */;
+}
